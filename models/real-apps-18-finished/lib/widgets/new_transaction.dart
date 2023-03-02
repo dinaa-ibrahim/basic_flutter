@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:intl/intl.dart';
+//import 'package:intl/intl.dart';
 
 class NewTransaction extends StatefulWidget {
   final Function addTx;
@@ -80,13 +80,13 @@ class _NewTransactionState extends State<NewTransaction> {
               height: 70,
               child: Row(
                 children: <Widget>[
-                  Expanded(
-                    child: Text(
-                      _selectedDate == null
-                          ? 'No Date Chosen!'
-                          : 'Picked Date: ${DateFormat.yMd().format(_selectedDate)}',
-                    ),
-                  ),
+                  //  Expanded(
+                  //  child:// Text(
+                  // _selectedDate == null
+                  //      ? 'No Date Chosen!'
+                  //  : 'Picked Date: ${DateFormat.yMd().format(_selectedDate)}',
+                  //  ),
+                  //  ),
                   FlatButton(
                     textColor: Theme.of(context).primaryColor,
                     child: Text(
